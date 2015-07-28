@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head >
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="./style.css" media="screen" title="no title" charset="utf-8">
   </head>
 
-  <body>
+  <body">
     <div class="header" >
       <div class="avatar"></div>
       <div id="me"><img src="./img/me.png" style="width:400px;height:50px"/></div>
@@ -14,25 +14,55 @@
 
     <div id="menudiv">
       <ul id="menuul">
-        <li><a href="http://www.baidu.com" target="_blank">one</a></li>
-        <li><a href="file:///media/wxl/%E8%BD%AF%E4%BB%B6/SorftWare-it/WampServer/wamp/www/homepage/index.html" target="_blank">one</a></li>
-        <li><a href="http://www.baidu.com" target="_blank">one</a></li>
-        <li><a href="http://www.baidu.com" target="_blank">one</a></li>
+        <li><a href="#bodysum" >one</a></li>
+        <li><a href="#bodyone" >two</a></li>
+        <li><a href="#bodytwo" >three</a></li>
+        <li><a href="#bodythree" >four</a></li>
       </ul>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="#top">top</a></li>
+            <li><a href="#bodysum" >one</a></li>
+            <li><a href="#bodyone">two</a></li>
+            <li><a href="#bodytwo">three</a></li>
+            <li><a href="#bodythree">four</a></li>
+        </ul>
+    </div>
+
+    <div id="bodysum">
+       <!-- <div id="sum-title" ><img src="./img/do.png" style="width:280px;height:60px;margin:auto;padding:auto" style="margin:auto"/></div> -->
+       <div id="sum-title" ><h2 style="margin:0">基本信息</h2></div>
+       <ul id="sum-ul">
+       <li style="width:450px"><div id="sum-1">
+          <ul id="sum-message1">
+            <li><div id="name-div"><h4 style="margin:0">姓名: 王小龙</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">毕业院校: 长安大学</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">电话: 18220863082</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">出生日期: 1994.7.18</h4></div></li>
+            <li><div id="name-div"><h5 style="margin:0">Email: 949682639@qq.com</h5></div></li>
+          </ul>
+       </div></li>
+       <li style="width:450px"><div id="sum-2" >
+          <ul id="sum-message2">
+            <li><div id="name-div"><h4 style="margin:0">性别: 男</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">专业: 电子信息工程</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">毕业院校: 长安大学</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">QQ: 949682639</h4></div></li>
+            <li><div id="name-div"><h4 style="margin:0">英语等级: CET4</h4></div></li>
+          </ul>
+       </div></li>
+       </ul>
     </div>
 
     <div id="bodyone">
        <div id="one-title" ><img src="./img/do.png" style="width:280px;height:60px;margin:auto;padding:auto"/></div>
        <div id="one-1">
           <ul id="one-img">
-            <li><img src="./img/js.png" style="width:100px;height:100px"/></li>
-            <li><img src="./img/html.png" style="width:100px;height:100px"/></li>
-            <li><img src="./img/css.png" style="width:100px;height:100px"/></li>
-          </ul>
-          <ul id="one-word">
-            <li><p>JS</p></li>
-            <li><p>HTML</p></li>
-            <li><p>CSS</p></li>
+            <li><div id="js-div"><img src="./img/js.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="html-div"><img src="./img/html.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="css-div"><img src="./img/css.png" style="width:100px;height:100px"/><br/>一般</div></li>
           </ul>
        </div>
     </div>
