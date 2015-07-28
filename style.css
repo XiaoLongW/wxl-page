@@ -6,7 +6,7 @@ body{
   color: white
 }
 .header{
-  width: 900px;
+  width: 1000px;
   height: 170px;
   margin: 110px auto 0 auto;
   background: #585858;
@@ -32,7 +32,7 @@ body{
 }
 
 #menu{
-  width: 900px;
+  width: 1000px;
   height: 50px;
   background: black ;
   margin: 0 auto ;
@@ -60,35 +60,34 @@ body{
 }
 
 #bodyone{
-  width:900px;
+  width:1000px;
   height:700px;
   background:#484848;
-  margin: 0 auto 0 auto;
-}
-#bodyone h1{
-    text-align: center;
+  margin: 10px auto 0 auto;
 }
 #one-title{
 margin: 10px auto 0 auto;
 text-align: center;
 }
+
 #bodytwo{
-  width:900px;
+  width:1000px;
   height:700px;
   background:#484848;
-  margin: 0 auto 0 auto;
+  margin: 10px auto 0 auto;
 }
-#bodytwo h1{
+#two-title{
   margin: 10px auto 0 auto;
   text-align: center;
 }
+
 #bodythree{
-  width:900px;
+  width:1000px;
   height:700px;
   background:#484848;
-  margin: 0 auto 0 auto;
+  margin: 10px auto 0 auto;
 }
-#bodythree h1{
+#three-title{
   margin: 10px auto 0 auto;
   text-align: center;
 }
