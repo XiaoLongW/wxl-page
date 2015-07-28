@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding:0;
+  background: url(./img/5.jpg);
+  background-size: 100% auto;
+  color: white
+}
+.header{
+  width: 900px;
+  height: 170px;
+  margin: 110px auto 0 auto;
+  background: #585858;
+  background-size: 100% auto;
+}
+.header h1{
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: -70px;
+}
+.avatar{
+  width: 135px;
+  height: 135px;
+  border-radius:100%;
+  background: url(./img/2.jpg) ;
+  background-size: 130% auto;
+  position:relative;
+  top:-70px;
+  margin:0 auto;
+  border:4px solid #FFFFFF;
+}
+
+#menu{
+  width: 900px;
+  height: 50px;
+  background: black ;
+  margin: 0 auto ;
+  padding: 0;
+  text-align: center;
+}
+
+#menu>li{
+  list-style: none;
+  color: #FFF;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin: auto 40px auto 40px;
+  font-size: 30px;
+}
+
+#menu>li a{
+  text-decoration: none;
+  color: white;
+}
+
+#menu>li a:hover{
+  text-decoration: underline;
+}
+
+#bodyone{
+  width:900px;
+  height:700px;
+  background:#484848;
+  margin: 0 auto 0 auto;
+}
+#bodyone h1{
+    text-align: center;
+}
+#one-title{
+margin: 10px auto 0 auto;
+text-align: center;
+}
+#bodytwo{
+  width:900px;
+  height:700px;
+  background:#484848;
+  margin: 0 auto 0 auto;
+}
+#bodytwo h1{
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
+#bodythree{
+  width:900px;
+  height:700px;
+  background:#484848;
+  margin: 0 auto 0 auto;
+}
+#bodythree h1{
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
