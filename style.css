@@ -11,9 +11,9 @@ body{
     top: 200px;
     left: 60%;
     margin-left: 400px;
-    width: 80px;
-    background: rgba(58,58,58,1);
-    border-radius:50%;
+    width: 5px;
+    background: rgba(11,00,00,1);
+    border-radius:0%;
 }
 
 #menu ul{
@@ -23,27 +23,30 @@ body{
 }
 
 #menu ul li{
-border-radius: 100%;
+border-radius: 70%;
+background: rgba(00,45,00,0);
 }
 
 #menu ul li a {
+  text-align: center;
     display: block;
-    margin: 5px 0;
-    font-size: 25px;
+    margin: 10px 0;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     width: 80px;
-    height: 50px;
-    line-height: 50px;
+    height: 35px;
+    line-height: 35px;
     text-decoration: none;
     text-align: center;
-    border-radius: 100%;
+    border-radius: 0%;
+    background: black;
 }
 
 #menu ul li a:hover,
 #menu ul li a.current {
     color: #fff;
-    background: black;
+    background: #282828;
 }
 
 .header{
@@ -123,7 +126,7 @@ margin:0 auto 0 auto;
 text-align:center;
 }
 #sum-ul{
-  margin: 0;
+  margin: 10px auto 20px auto;
   padding: 0 40px 0 40px;
   width:920px;
   height:300px;
@@ -134,67 +137,67 @@ text-align:center;
   margin: 0;
 }
 
-#bodyone{
+#bodycan{
   width:1000px;
-  height:400px;
+  height:500px;
   background:rgba(58,58,58,0.8);
   margin: 10px auto 0 auto;
   padding: 0;
 }
-#one-title{
+#can-title{
 margin: 10px auto 0 auto;
 width:280px;
-height:120px;
+height:60px;
 margin:0 auto 30px auto;
 text-align:center;
 }
-#one-img{
+#can-img{
   width: 1000px;
   height: 100px;
   margin: 0 auto ;
   padding: 0;
   text-align: center;
 }
-#one-img>li{
+#can-img>li{
   list-style: none;
   color: #FFF;
   display: inline-block;
   position: relative;
   padding: 0;
-  margin: auto 80px auto 80px;
+  margin: auto 30px auto 0;
   font-size: 30px;
 }
-#one-word{
-  width: 1000px;
-  height: 50px;
-  margin: 0 auto ;
-  padding: 0;
-  text-align: center;
-}
-#one-word>li{
-  list-style: none;
-  color: #FFF;
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  margin: auto 80px auto 80px;
-  font-size: 40px;
+
+.can{
+  margin: 50px auto 100px auto;
 }
 
 
-
-#bodytwo{
+#bodyitem{
   width:1000px;
-  height:700px;
+  height:400px;
   background:rgba(58,58,58,0.8);
   margin: 10px auto 0 auto;
 }
-#two-title{
+#item-title{
   margin: 0 auto 0 auto;
   text-align: center;
 }
 
-#bodythree{
+
+#bodyexperce{
+  width:1000px;
+  height:400px;
+  background:rgba(58,58,58,0.8);
+  margin: 10px auto 0 auto;
+}
+#experce-title{
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+
+#bodyphoto{
   width:1000px;
   height:700px;
   background:rgba(58,58,58,0.8);
@@ -205,13 +208,12 @@ text-align:center;
   text-align: center;
 }
 #three-photos{
-  width:900px;
+  width:940px;
   padding: 0;
-  margin:  10px auto;
-
+  margin:  50px auto;
 }
 #three-ul{
-  width:900px;
+  width:940px;
   margin: 10px auto 10px auto;
   padding:0;
 }
@@ -219,4 +221,9 @@ text-align:center;
   padding: 0;
   display: inline-block;
   margin: 5px 5px 5px 5px;
+}
+#three-ul>li>img{
+  width:210px;
+  height:180px;
+  border: 5px solid black;
 }

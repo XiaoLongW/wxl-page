@@ -15,25 +15,24 @@
     <div id="menudiv">
       <ul id="menuul">
         <li><a href="#bodysum" >one</a></li>
-        <li><a href="#bodyone" >two</a></li>
-        <li><a href="#bodytwo" >three</a></li>
-        <li><a href="#bodythree" >four</a></li>
+        <li><a href="#bodycan" >two</a></li>
+        <li><a href="#bodyitem" >three</a></li>
+        <li><a href="#bodyexpress" >four</a></li>
       </ul>
     </div>
 
     <div id="menu">
         <ul>
             <li><a href="#top">top</a></li>
-            <li><a href="#bodysum" >one</a></li>
-            <li><a href="#bodyone">two</a></li>
-            <li><a href="#bodytwo">three</a></li>
-            <li><a href="#bodythree">four</a></li>
+            <li><a href="#bodysum" >基本信息</a></li>
+            <li><a href="#bodycan">个人技能</a></li>
+            <li><a href="#bodyitem">项目实践</a></li>
+            <li><a href="#bodyexperce">实习&获奖</a></li>
         </ul>
     </div>
 
     <div id="bodysum">
-       <!-- <div id="sum-title" ><img src="./img/do.png" style="width:280px;height:60px;margin:auto;padding:auto" style="margin:auto"/></div> -->
-       <div id="sum-title" ><h2 style="margin:0">基本信息</h2></div>
+       <div id="sum-title" ><img src="./img/personl.png" style="width:280px;height:60px;margin:auto;padding:auto" style="margin:auto"/></div>
        <ul id="sum-ul">
        <li style="width:450px"><div id="sum-1">
           <ul id="sum-message1">
@@ -56,33 +55,99 @@
        </ul>
     </div>
 
-    <div id="bodyone">
-       <div id="one-title" ><img src="./img/do.png" style="width:280px;height:60px;margin:auto;padding:auto"/></div>
-       <div id="one-1">
-          <ul id="one-img">
+    <div id="bodycan">
+       <div id="can-title" ><img src="./img/can.png" style="width:280px;height:60px;margin:auto;padding:auto"/></div>
+       <ul style="margin:0;padding:0;">
+       <li><div class="can">
+          <ul id="can-img">
+            <li><div id="qd-div"><img src="./img/yy.png" style="width:150px;height:100px;color:black"/><br/>------------</div></li>
             <li><div id="js-div"><img src="./img/js.png" style="width:100px;height:100px"/><br/>一般</div></li>
             <li><div id="html-div"><img src="./img/html.png" style="width:100px;height:100px"/><br/>一般</div></li>
             <li><div id="css-div"><img src="./img/css.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="css-div"><img src="./img/ajax.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="css-div"><img src="./img/mysql.png" style="width:100px;height:100px"/><br/>一般</div></li>
           </ul>
+       </div></li>
+       <li><div class="can" >
+          <ul id="can-img">
+            <li><div id="qd-div"><img src="./img/qd.png" style="width:150px;height:100px;color:black"/><br/>------------</div></li>
+            <li><div id="js-div"><img src="./img/js.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="html-div"><img src="./img/html.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="css-div"><img src="./img/css.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="css-div"><img src="./img/ajax.png" style="width:100px;height:100px"/><br/>一般</div></li>
+            <li><div id="css-div"><img src="./img/mysql.png" style="width:100px;height:100px"/><br/>一般</div></li>
+          </ul>
+       </div></li>
+     </ul>
+    </div>
+
+    <div id="bodyitem">
+       <div id="item-title" ><img src="./img/item.png" style="width:280px;height:60px;"/></div>
+       <div id="item-table" style="margin:30px auto 30px auto;font-size:15px">
+         <table border="1" style="margin:30px auto 30px auto;font-size:15px;background:black" >
+           <tr style="background:black">
+             <th colspan="4">项目名称</th>
+             <th colspan="4">项目描述</th>
+             <th colspan="4">技术架构</th>
+           </tr>
+
+           <tr style="background:#303030">
+             <td colspan="4" align="value">网络银行</td>
+             <td colspan="4"  >本系统是一个基于c/s模式的程序，多进程，</br>将支持不同服务的代码写在不同的进程中，方便维护</td>
+             <td colspan="4" >1、采用C/S模式，服务器通过Socket等待客户端连接及和客户端交互。</br>2、使用socket进行网络架构</br>3、多进程，Socket编程实现了封装数据对象的发送和接收。</td>
+           </tr>
+           <tr rowspan="2" style="background:white"></tr>
+           <tr rowspan="2" style="background:white"></tr>
+           <tr rowspan="2" style="background:white"></tr>
+           <tr style="background:#303030">
+             <td colspan="4" align="value">DMS系统</td>
+             <td colspan="4"> 本系统在Linux环境下编写，c++编写，客户端读取日志文件，</br>并进行登入以及登出记录的匹配，并保存匹配以及未匹配的记录，</br>将匹配的记录发给服务器，未匹配的登入记录待下次读取日志文件，</br>将其加入并进行下一轮的匹配，服务器收到信息则将其存入数据库</td>
+             <td colspan="4" >1.分为采集系统客户端以及采集系统服务器</br>
+          2.用Unix的FIO知识完成对日志文件的读取</br>
+          3.用socket完成网络架构，进行数据通信</br>
+          4.用proc来完成对数据库的连接，添加，删除等操作<br>
+          5.用Qt制作一个简单的界面</td>
+          </tr>
+         </table>
        </div>
     </div>
 
-    <div id="bodytwo">
-       <div id="two-title" ><img src="./img/photos.png" style="width:280px;height:60px;"/></div>
+    <div id="bodyexperce">
+      <div id="experce-title" ><img src="./img/experce.png" style="width:280px;height:60px;"/></div>
+      <div id="experce-table" style="margin:30px auto 30px auto;font-size:15px">
+        <table border="1" style="margin:30px auto 30px auto;font-size:15px;background:black;width:1000px" >
+
+          <tr >
+            <td colspan="4" align="value" style="background:black">获奖状况</td>
+            <td colspan="4"  style="background:#303030">2014年春季运动会上获单摇接力第2名</br>
+2014年获得信息学院班级主页大赛第三名；</br>
+2014年四月荣获 西北大学第十三届电脑文化艺术暨第四届西安高校联合电脑文化艺术节 网页设计大赛特等奖；</td>
+          </tr>
+          <tr rowspan="2" style="background:white"><td style="background:white"></td></tr>
+          <tr rowspan="2" style="background:white"><td style="background:white"></td></tr>
+          <tr rowspan="2" style="background:white"><td style="background:white"></td></tr>
+          <tr >
+            <td colspan="4" align="value" style="background:black">社会实习</td>
+            <td colspan="4" style="background:#303030"> 2013年暑假在乌鲁木齐好家乡超市做销售员，贴身体验了社会工作的艰辛与乐趣；</br>
+2013年在新生报到时给大一新生销售长大绿捷思水站水票以及兼职移动业务员。</br>
+2015年暑假在ThoughtWorks西安办公室实习培训</td>
+         </tr>
+        </table>
+      </div>
     </div>
 
-    <div id="bodythree">
+    <div id="bodyphoto">
       <div id="three-title" ><img src="./img/photos.png" style="width:280px;height:60px;"/></div>
       <div id="three-photos">
         <ul id="three-ul">
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
-            <li><img src="./img/2.jpg" style="width:210px;height:200px"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
+            <li><img src="./img/2.jpg"/></li>
         </ul>
       </div>
     </div>
